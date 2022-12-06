@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <style>
+    body {
+      margin: 0px;
+    }
+    .navbar {
+      display: flex;
+      background-color: black;
+      padding: 5px 5px 5px;
+      top: 0;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      justify-content: space-between;
+      padding: 10px 10px 10px;
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 16px;
+    }
+
+    a:hover {
+      background-color: gray;
+      cursor: pointer;
+    }
+
+    #navbar div div {
+      padding: 12px 24px;
+      text-align: center;
+      font-size: 15px;
+      font-family: sans-serif;
+      cursor: pointer;
+    }
+
+    #navbar div div:hover {
+      background-color: #cccccc;
+    }
+
+    #img-grid {
+      height: 700px;
+      display: grid;
+      grid-template-rows: 9fr 1fr;
+      background: url(maniac.jpeg);
+      background-size: 100% 700px;
+
+      text-align: center;
+      color: white;
+    }
+
+   
+
+    #bandcontent {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr;
+      text-align: center;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  
+        #Album-content {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 2fr;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    #band-header {
+      font-size: 30px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    #band-subheader {
+      font-style: italic;
+      font-family: sans-serif;
+      color: grey;
+    }
+
+    #band-content-text {
+      font-family: sans-serif;
+      text-align: justify;
+    }
+
+    #img-band {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 1fr 1fr 1fr;
+      column-gap: 60px;
+      justify-items: center;
+      
+    }
+
+     #img-Album {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      column-gap: 40px;
+      justify-items: center;
+    }
+
+    #img-band div {
+      width: 150px;
+      height: 150px;
+      padding: 20px;
+    }
+
+    #member{
+      font-size: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+   
+
+#text {
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#content{
+  max-width: 960px;
+  grid-column-gap:20px ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+  </style>
+
+  <body>
+    <div class="navbar">
+      <a href ="#Home" class="home"> <img src="skz.png" height="25px" alt="logo"/> </a>
+      <a href="#Profile" class="Profile">Profile</a>
+      <a href="#Discography" class="Contact">Discography</a>
+      <a href="#Gallery" class="About">Gallery</a>
+      <a href="#Video" class="Members">Video</a>
+    </div>
+
+  <article id="Home">
+    <div id="img-grid">
+      <div></div>
+    </div>
+    </article>
+
+    <article id="Profile">
+      <div id="bandcontent">
+        <div></div>
+        <div id="band-header">Profile</div>
+        <div id="band-subheader">Stray Kids Members</div>
+        <div id="band-content-text"></div>
+
+        <div id="img-band">
+          <div id="member">
+           
+            <img src="Bangchan.jpeg" alt="member" width="100%" height="100%" />
+          </div>
+          <div id="member">
+            <h1>Bang Chan</h1>
+  
+           <p> 이름 : 방찬 </br>
+            생일 : 1997.10.03</p></br>
+          
+          </div>
+
+            <div id="member">
+               <h1>Lee Know</h1>
+  
+          <p> 이름 : 리노</br>
+           생일 : 1998.10.25</p></br>
+              
+          </div>
+          
+             <div id="member">
+                 <p></p>
+                     <img src="leeknow.jpeg" alt="member" width="100%" height="100%" />
+             </div>
+             
+            <div id="member">
+                 <p></p>
+                    <img src="changbin.jpeg" alt="member" width="100%" height="100%" />
+            </div>
+             <div id="member">
+               <h1>Chang Bin</h1>
+  
+          <p> 이름 : 창빈</br>
+           생일 : 1999.08.11</p></br>
+           </div>
+
+          <div id="member">
+               <h1>Hyun Jin</h1>
+  
+          <p> 이름 : 현진</br>
+           생일 : 2000.03.20</p></br>
+           </div>
+
+             <div id="member">
+                    <p></p>
+                    <img src="hyunjin.jpeg" alt="member" width="100%" height="100%" />
+            </div>
+            
+
+             <div id="member">
+                    <p></p>
+                    <img src="han.jpeg" alt="member" width="100%" height="100%" />
+            </div>
+             <div id="member">
+               <h1>Han</h1>
+  
+          <p> 이름 : 한</br>
+          생일 : 2000.09.14</p></br>
+           </div>
+
+            <div id="member">
+               <h1>Felix</h1>
+  
+          <p> 이름 : 필릭스</br>
+          생일 : 2000.09.15</p></br>
+           </div>
+
+             <div id="member">
+                    <p></p>
+                    <img src="felix.jpeg" alt="member" width="100%" height="100%" />
+            </div>
+            
+             <div id="member">
+                    <p></p>
+                    <img src="seungmin.jpeg" alt="member" width="100%" height="100%" />
+            </div>
+            <div id="member">
+               <h1>Seungmin</h1>
+  
+          <p> 이름 : 승민</br>
+          생일 : 2000.09.22</p></br>
+           </div>
+
+             <div id="member">
+               <h1>I.N</h1>
+  
+          <p> 이름 : 아이엔</br>
+          생일 : 2001.02.08</p></br>
+           </div>
+
+             <div id="member">
+                    <p></p>
+                    <img src="in.jpeg" alt="member" width="100%" height="100%" />
+            </div>
+        </div>
+      </div>
+
+      
+        <article id="Discography">
+          <div id="Album-content">
+            <div></div>
+        <div id="band-header">Discography</div>
+          <div></div>
+          <div id="content">
+         <div class="kotak1"><img src="Album Maxident.jpeg" alt="maxident" width="300px" height="300px" /></div>
+          <div class="kotak2"><img src="Ordinary.jpeg" alt="maxident" width="300px" height="300px" /></div>
+           <div class="kotak3"><img src="Chrismats evel.jpeg" alt="maxident" width="300px" height="300px" /></div>
+           </div>
+          </article>
+   
+    
+    </article>
+  </body>
+</html>
